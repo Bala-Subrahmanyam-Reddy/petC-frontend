@@ -1,6 +1,7 @@
 .product-image {
     border-radius: 20px;
     border: 0.5px solid whitesmoke;
+    height: 150px;
 }
 
 .product-top-con {
@@ -9,12 +10,22 @@
     justify-content: space-between;
     padding-top: 15px;
 }
-
+.each-product{
+    margin-bottom: 50px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+}
 .product-heading {
     font-size: 15px;
     font-weight: bold;
     text-transform: capitalize;
     text-align: left;
+    width: 50%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
 }
 
 .product-age-text {
@@ -58,11 +69,12 @@
     border: 0;
     background-color: goldenrod;
     text-align: center;
-    border-radius:5px;
+    border-radius: 5px;
     padding: 0 5px 0 5px;
     width: 25px;
 }
-.add-cart-button label{
+
+.add-cart-button label {
     font-size: 13px;
     padding-left: 5px;
     padding-right: 5px;
