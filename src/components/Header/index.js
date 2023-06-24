@@ -62,7 +62,7 @@ const Header = () => {
 
   const logoutHandle = () => {
     localStorage.removeItem('loginObj');
-    navigation('/');
+    navigation(0);
   };
 
   return (
