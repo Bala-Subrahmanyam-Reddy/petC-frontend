@@ -1,0 +1,20 @@
+.banner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.banner-heading{
+    font-size: 35px;
+    color: rgb(10, 10, 10);
+    text-transform: capitalize;
+    text-align: left;
+    font-size: bold;
+}
+.banner-para{
+    color: rgb(46, 46, 46);
+    font-size: bold;
+}
+.banner-right-container{
+    padding: 30px;
+}

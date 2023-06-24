@@ -1,0 +1,11 @@
+.filter-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.filter-heading{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(53, 52, 52);
+    text-align: center;
+}
