@@ -20,7 +20,7 @@ const Products = ({ products }) => {
       <div className='container'>
         <div className='row row-cols-md-5 row-cols-sm-2'>
           {products.map((eachProduct) => (
-            <div className='col' key={eachProduct.id}>
+            <div className='col each-product' key={eachProduct.id}>
               <img
                 className='w-100 d-block product-image'
                 src={eachProduct.p_image}
