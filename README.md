@@ -4,7 +4,7 @@
 petC is ecommerce website for pet lovers to buy products related to pets,petC will allow user to sort product based on age ranges and bread, and petC will recommend user custom products based on their pet data.
 
 ## Demo Link : https://petc-frontend.netlify.app/
-## Demo Details : v@gmail.com,123
+## Demo Details : v@gmail.com , 123
  
 ## Demo
 ![ezgif com-optimize](https://github.com/Bala-Subrahmanyam-Reddy/petC-frontend/assets/121880674/4acef8c6-4fb1-4711-8fb4-2fb729ec92a7)
