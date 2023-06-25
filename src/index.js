@@ -8,6 +8,7 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import { ShoppingCartProvider } from 'shopping-cart-provider';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
