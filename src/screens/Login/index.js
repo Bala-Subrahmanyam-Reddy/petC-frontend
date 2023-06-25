@@ -13,6 +13,15 @@ const Login = () => {
   const [message, setMessage] = useState(null);
   const navigate = useNavigate();
 
+  useEffect(() => {
+    const fetchUser = async () => {
+      if (localStorage.getItem('loginObj') !== null) {
+        navigate('/');
+      }
+    };
+    fetchUser();
+  }, []);
+  
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
