@@ -42,7 +42,7 @@ const Login = () => {
           data: response.data.data[0],
         });
         localStorage.setItem('loginObj', loginObj);
-        navigate('/');
+        navigate(0);
       } else {
         alert('Email or Password is incorrect');
       }
